@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hattie Secrist">
+    <meta name="description" content="Learn about the Declaration of Independence of the United States">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>America's Founding Documents: Declaration of Independence</title>
+</head>
+<body>
+    <!-- Start the page head -->
+    <header>
+        <h1>America's Founding Documents: Declaration of Independence</h1>
+        <p>Learn about the Declaration of Independence of the United States</p>
+    </header>
+
+    <!-- Start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#text">Text of the Declaration</a></li>
+            <li><a href="#signers">Signers</a></li>
+        </ul>
+    </nav>
+
+    <!-- Start the main content -->
+    <main>
+        <section id="history">
+            <h2>History of the Declaration of Independence</h2>
+            <p>The Declaration of Independence was adopted on July 4, 1776...</p>
+        </section>
+
+        <section id="text">
+            <h2>Text of the Declaration</h2>
+            <p>The full text of the Declaration of Independence...</p>
+        </section>
+
+        <section id="signers">
+            <h2>Signers of the Declaration</h2>
+            <p>The following individuals signed the Declaration...</p>
+        </section>
+    </main>
+
+    <!-- Start the page footer -->
+    <footer>
+        <p>&copy; 2025 Hattie Secrist</p>
+    </footer>
+</body>
+</html>
