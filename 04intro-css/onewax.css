@@ -1,0 +1,152 @@
+/*Body Stuff Here*/
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    background-color: #EDE6E3;
+    color: #0E103D;
+}
+
+/*Header Stuff Here*/
+header {
+    background-color: #00635D;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #EDE6E3;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* Navigation Stuff Here*/
+nav {
+    background-color: #F64740;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 700;
+}
+
+nav li.active {
+    background-color: #0E103D;
+    color: #F64740;
+}
+
+nav li a:hover {
+    color: #5BC3EB;
+}
+
+/* Main Stuff Here */
+main {
+    padding: 1rem 10px;
+    background-color: #EDE6E3;
+}
+
+main h1 {
+    color: #F64740;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main h2 {
+    color: #00635D;
+    margin-bottom: .2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+main p {
+    margin: 0 0 1rem 0;
+    color: #0E103D;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #5BC3EB;
+}
+
+main dl {
+    padding: .5rem 20px;
+    margin: 1rem 0;
+    background-color: white;
+    border: 2px solid #00635D;
+    border-radius: 10px;
+}
+
+main dl dt {
+    color: #F64740;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #00635D;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+    padding: .5rem 30px;
+    margin: 1rem 0;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #00635D;
+}
+
+main em {
+    font-weight: 600;
+    color: #F64740;
+}
+
+main address {
+    font-style: normal;
+    background-color: #5BC3EB;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #00635D;
+    width: 200px;
+}
+
+main {
+    color: #0E103D;
+}
+
+main a:hover {
+    color: #F64740;
+}
+
+
+/*Footer Stuff Here*/
+footer {
+    background-color: #0E103D;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #EDE6E3;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
