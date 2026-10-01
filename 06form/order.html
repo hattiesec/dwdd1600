@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="description" content="Order One Wax surf wax.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="onewax.css">
+<meta charset="UTF-8">
+<title>One Wax | Order</title>
+</head>
+<body>
+
+<!-- start the page header -->
+<header>
+<span>One Wax</span>
+</header>
+
+<!-- start the page navigation -->
+<nav>
+<ul>
+<li><a href="index.html">About Us</a></li>
+<li class="active"><a href="order.html">Order Wax</a></li>
+</ul>
+</nav>
+
+<!-- start the page main -->
+<main>
+<h1>Order One Wax</h1>
+
+<p>Get your One Wax surf wax ready for your next session. Choose your wax, select your extras, and tell us anything we should know about your order.</p>
+
+<p><strong>* Required fields</strong></p>
+
+<form method="get" class="myForm" action="thanks.html">
+
+<!-- Customer Information -->
+<fieldset>
+<legend>Customer Information</legend>
+
+<label>
+First Name*
+<input type="text" name="fname" required>
+</label>
+
+<label>
+Last Name*
+<input type="text" name="lname" required>
+</label>
+
+<label>
+Email Address*
+<input type="email" name="email" required>
+</label>
+
+<label>
+Phone Number
+<input type="tel" name="phone" placeholder="801-555-1234">
+</label>
+</fieldset>
+
+<!-- Wax Selection -->
+<fieldset>
+<legend>Choose Your Wax</legend>
+
+<p class="formInstructions">Choose the water temperature that best matches where you surf.</p>
+
+<div class="radioGroup">
+<label><input type="radio" name="temperature" value="cold" required> Cold Water</label>
+<label><input type="radio" name="temperature" value="cool"> Cool Water</label>
+<label><input type="radio" name="temperature" value="warm"> Warm Water</label>
+</div>
+
+<label>
+Number of Bars
+<select name="quantity">
+<option value="one">1 Bar</option>
+<option value="two">2 Bars</option>
+<option value="three">3 Bars</option>
+<option value="four">4+ Bars</option>
+</select>
+</label>
+</fieldset>
+
+<!-- Add-ons -->
+<fieldset>
+<legend>Customize Your Order</legend>
+
+<p class="formInstructions">Select any extras you'd like to include with your order.</p>
+
+<div class="checkboxGroup">
+<label><input type="checkbox" name="starter" value="yes"> Add a One Wax Starter Pack</label>
+<label><input type="checkbox" name="donation" value="yes"> Add a Surf Therapy Donation</label>
+<label><input type="checkbox" name="sticker" value="yes"> Add a One Wax Sticker</label>
+<label><input type="checkbox" name="bag" value="yes"> Add a Reusable Wax Bag</label>
+</div>
+</fieldset>
+
+<!-- Order Notes -->
+<fieldset>
+<legend>Order Notes</legend>
+
+<label>
+Special Instructions
+<textarea name="comments" placeholder="Tell us anything you'd like us to know about your order."></textarea>
+</label>
+</fieldset>
+
+<input type="submit" value="Place Order">
+
+</form>
+</main>
+
+<!-- start the page footer -->
+<footer>
+<p>&copy;2026 &bull; One Wax &bull; <a href="mailto:onewax@gmail.com">Email Us</a></p>
+</footer>
+
+</body>
+</html>
