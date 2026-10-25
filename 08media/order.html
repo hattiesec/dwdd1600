@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hattie Secrist">
+    <meta name="description" content="Order single-use surf wax from One Wax.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>One Wax | Order Wax</title>
+</head>
+<body>
+
+    <!-- Start the page header -->
+    <header>
+        <img src="logo.png" alt="One Wax logo" width="100" height="76">
+        <span>One Wax</span>
+    </header>
+
+    <!-- Start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="order.html">Order Wax</a></li>
+            <li><a href="wax-types.html">Wax Types</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Start the page main -->
+    <main>
+        <h1>Order Your Wax</h1>
+
+        <p>
+            Fill out the form below to place your One Wax order. Fields
+            marked with an asterisk (*) are required.
+        </p>
+
+        <form action="thanks.html" method="get">
+
+            <fieldset>
+                <legend>Your Information</legend>
+
+                <div class="form-row">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Jane Surfer" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="801-555-1234">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Wax</legend>
+
+                <div class="form-row">
+                    <label for="water">Water Temperature *</label>
+                    <select id="water" name="water" required>
+                        <option value="">Choose one...</option>
+                        <option value="tropical">Tropical (over 75&deg;F)</option>
+                        <option value="warm">Warm (68&ndash;75&deg;F)</option>
+                        <option value="cool">Cool (58&ndash;67&deg;F)</option>
+                        <option value="cold">Cold (under 58&deg;F)</option>
+                    </select>
+                </div>
+
+                <p class="group-label">Pack Size</p>
+                <div class="choice-group">
+                    <label class="choice"><input type="radio" name="pack" value="single" checked> Single (1 wax)</label>
+                    <label class="choice"><input type="radio" name="pack" value="five"> 5-Pack</label>
+                    <label class="choice"><input type="radio" name="pack" value="ten"> 10-Pack</label>
+                </div>
+
+                <p class="group-label">Add-Ons (optional)</p>
+                <div class="choice-group">
+                    <label class="choice"><input type="checkbox" name="addons" value="comb"> Wax comb</label>
+                    <label class="choice"><input type="checkbox" name="addons" value="stickers"> One Wax stickers</label>
+                    <label class="choice"><input type="checkbox" name="addons" value="donate"> Add a $1 donation to surf therapy</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery &amp; Notes</legend>
+
+                <div class="form-row">
+                    <label for="address">Shipping Address *</label>
+                    <textarea id="address" name="address" rows="3" placeholder="Street, city, state, ZIP" required></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="notes">Order Notes</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Anything we should know?"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Place Order</button>
+        </form>
+    </main>
+
+    <!-- Start the page footer -->
+    <footer>
+        <p>&copy; 2026 One Wax &bull; <a href="mailto:onewax@example.com">Email Us</a></p>
+    </footer>
+
+</body>
+</html>
